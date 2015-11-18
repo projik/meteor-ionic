@@ -10,6 +10,7 @@ Template.ionListButton.helpers({
     classes.push('item-' + side + '-edit');
 
     classes.push('enable-pointer-events');
+    classes.push(this.class);
     
     return classes.join(' ');
 
