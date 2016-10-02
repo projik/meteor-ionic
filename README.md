@@ -1,5 +1,3 @@
-![](http://f.cl.ly/items/391y4708420P0H001k1G/meteoric.png)
-
 # meteor-ionic
 
 ### Build [Ionic](http://ionicframework.com/) apps in [Meteor](https://www.meteor.com/)!
@@ -33,13 +31,6 @@ A simple CRUD app to manage contacts.
 A [Product Hunt](http://producthunt.com) clone built in Meteor Ionic. (In Progress)
 
 [Demo](http://meteorhunt.meteor.com/) |  [Code](https://github.com/meteoric/meteorhunt)
-
-### Demo of all components
-The demo app of various meteoric components
-
-[Demo](http://meteor-ionic.meteor.com/) |  [Code](https://github.com/meteoric/demo)
-
-You can also keep track of the various other repos from the [Meteoric team](https://github.com/meteoric)
 
 ## TODO
 
