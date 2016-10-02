@@ -1,4 +1,5 @@
-POPOVER_BODY_PADDING = 6;
+POPOVER_BODY_PADDING = 15;
+HEADER_BAR_HEIGHT = 44
 
 IonPopover = {
   show: function (templateName, data, button) {
@@ -30,12 +31,22 @@ IonPopover = {
       popoverCSS.left = bodyWidth - popoverWidth - POPOVER_BODY_PADDING;
     }
 
+    /*
     if (buttonPosition.top + buttonHeight + popoverHeight > bodyHeight) {
       popoverCSS.top = buttonPosition.top - popoverHeight;
       $popover.addClass('popover-bottom');
     } else {
       popoverCSS.top = buttonPosition.top + buttonHeight;
       $popover.removeClass('popover-bottom');
+    }
+    */
+
+    if (buttonPosition.top - popoverHeight - POPOVER_BODY_PADDING - HEADER_BAR_HEIGHT < 0 ) {
+      popoverCSS.top = buttonPosition.top + buttonHeight;
+      $popover.removeClass('popover-bottom');
+    } else {
+      popoverCSS.top = buttonPosition.top - popoverHeight;
+      $popover.addClass('popover-bottom');
     }
 
     $backdrop.addClass('active');
