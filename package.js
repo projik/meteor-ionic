@@ -1,12 +1,12 @@
 Package.describe({
     name: "supaseca:ionic",
     summary: "Ionic components for Meteor. No Angular!",
-    version: "0.1.20",
+    version: "0.1.3",
     git: "https://github.com/projik/meteor-ionic.git"
 });
 
 Cordova.depends({
-    'ionic-plugin-keyboard': '1.0.8'
+    'ionic-plugin-keyboard': '2.2.1'
 });
 
 Package.onUse(function(api) {
