@@ -1,7 +1,7 @@
 Package.describe({
     name: "supaseca:ionic",
     summary: "Ionic components for Meteor. No Angular!",
-    version: "0.1.3",
+    version: "0.1.31",
     git: "https://github.com/projik/meteor-ionic.git"
 });
 
