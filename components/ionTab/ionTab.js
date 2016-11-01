@@ -6,6 +6,7 @@ Template.ionTab.events({
     'click': function(event, template) {
         if (template.data.path) {
             Session.set('ionTab.current', template.data.path);
+            Router.go(template.data.path);
         }
 
         // If the tab's content is being rendered inside of a ionNavView
